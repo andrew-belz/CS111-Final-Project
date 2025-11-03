@@ -32,5 +32,5 @@ This repository hosts a record of my final coding project.
 
 | Date | Start Time | Duration | Description |
 | --- | --- | --- | --- |
-| 2025-11-02 | 20:28 | 1h | initialized github repo and project workflow, including script to update work log. |
+| 2025-11-02 | 20:28 | 1h 30m | initialized github repo and project workflow, including script to update work log. Outlined project plan: Resources, Goals, To-Do |
 #### end work log.
