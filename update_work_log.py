@@ -2,7 +2,7 @@ import datetime
 import sys
 
 README = "README.md"
-LOG_MARKER = "#### end work log."
+LOG_MARKER = "-----"
 
 def main():
 
