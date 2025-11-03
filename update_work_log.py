@@ -2,7 +2,7 @@ import datetime
 import sys
 
 README = "README.md"
-LOG_MARKER = "-----"
+LOG_MARKER = "Last updated"
 
 def main():
 
@@ -41,6 +41,7 @@ def main():
             return
         
         lines.insert(marker_index, new_log_row + "\n")
+        lines[-1] = f"Last updated: {datetime.datetime.now().isoformat()}\n"
 
         with open(README, 'w') as file:
             file.writelines(lines)
