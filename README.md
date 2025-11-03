@@ -33,4 +33,5 @@ This repository hosts a record of my final coding project.
 | Date | Start Time | Duration | Description |
 | --- | --- | --- | --- |
 | 2025-11-02 | 20:28 | 1h 30m | initialized github repo and project workflow, including script to update work log. Outlined project plan: Resources, Goals, To-Do |
+| 2025-11-03 | 01:05 | 1hr | Defined the mathematical model that I am going to be using for this project. Identified biologically plausible values for the model parameters. Researched relevant numerical methods that may be of use. |
 -----
