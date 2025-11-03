@@ -41,6 +41,8 @@ def main():
             return
         
         lines.insert(marker_index, new_log_row + "\n")
+
+        #!!!Very last line of README must be "Last updated" timestamp!!!
         lines[-1] = f"Last updated: {datetime.datetime.now().isoformat()}\n"
 
         with open(README, 'w') as file:
