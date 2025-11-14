@@ -25,8 +25,8 @@ This repository hosts a record of my final coding project.
 
 ### To-Do
 
-1. Research methods for implementing single-neuron LIF model.
-2. Practice and experiment with one-neuron model, including visualizing mean fire rate and synchrony.
+1. Research excitability and inhibitory neurons, as well as edge weight distributions. Determine the best way to weight the directed edges of the graph.
+2. Implement the forward Euler method for the 
 
 ### Work Log
 
@@ -36,4 +36,5 @@ This repository hosts a record of my final coding project.
 | 2025-11-03 | 01:17 | 1h 00m | Defined the mathematical model that I am going to be using for this project. Identified biologically plausible values for the model parameters. Researched relevant numerical methods that may be of use. |
 | 2025-11-05 | 13:32 | 2h | Implemented my first LIF simulation for a single neuron. |
 | 2025-11-10 | 12:55 | 1h 30m | Introduced random noise in the current of my single-neuron LIF model. Implemented Gaussian smoothing to the spike train. |
-Last updated: 2025-11-10T12:55:09.454323
+| 2025-11-13 | 19:51 | 3h | Attempted to implement an LIF model for a network of neurons. Wrote the math to use and attempted the simulation but its incredibly finicky and unstable. Will need to do more research to see what others have done before. |
+Last updated: 2025-11-13T19:51:44.398959
