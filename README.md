@@ -5,11 +5,7 @@ This repository hosts a record of my final coding project.
 
 ### Project Goals
 
-1. Learn how to simulate a leaky integrate-and-fire model ([Wikipedia](https://en.wikipedia.org/wiki/Biological_neuron_model)) for a single neuron.
-
-2. Construct a network of $100 \le n \le 1000$ neurons using the small-world model of Watts-Strogatz ([Wikipedia](https://en.wikipedia.org/wiki/Watts%E2%80%93Strogatz_model)). Implement the LIF model for this network.
-
-3. Track response variables mean fire rate and synchrony rate while varying the parameters of the small-world network. The hypothesis is that a higher proportion of long connections will lead to an increase in mean fire rate and synchrony across the network.
+1. Build a `networkx` wrapper to simulate different dynamical systems on networks.
 
 ### Dependencies:
 
@@ -20,13 +16,6 @@ This repository hosts a record of my final coding project.
 ### Resources:
 
 1. _Networks_, 2E by Mark Newman.
-2. _Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems_, by Peter Dayan and L.F. Abbot.
-3. ["_Neuronal Dynamics_,"](https://neuronaldynamics.epfl.ch/online/index.html) by Wulfram Gerstner et. al.
-
-### To-Do
-
-1. Research excitability and inhibitory neurons, as well as edge weight distributions. Determine the best way to weight the directed edges of the graph.
-2. Implement the forward Euler method for the 
 
 ### Work Log
 
@@ -37,4 +26,5 @@ This repository hosts a record of my final coding project.
 | 2025-11-05 | 13:32 | 2h | Implemented my first LIF simulation for a single neuron. |
 | 2025-11-10 | 12:55 | 1h 30m | Introduced random noise in the current of my single-neuron LIF model. Implemented Gaussian smoothing to the spike train. |
 | 2025-11-13 | 19:51 | 3h | Attempted to implement an LIF model for a network of neurons. Wrote the math to use and attempted the simulation but its incredibly finicky and unstable. Will need to do more research to see what others have done before. |
-Last updated: 2025-11-13T19:51:44.398959
+| 2025-12-09 | 10:00 | 8h | Reworked project scope and goals. Decided to build network analysis tool to simulate dynamical systems on networks. Built both `simulate` and `diffuse` simulation methods for a graph object, and ran some analyses with them. |
+Last updated: 2025-12-09T18:14:15.733844
