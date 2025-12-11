@@ -80,7 +80,7 @@ class GraphDynamics():
         Return a generator for simulating network diffusion with the graph Laplacian L.
         If no final time tf is given then generates indefinitely.
         Forward Euler method: x_{t+dt} = I - k*dt*L @ x_t
-        
+         
         :param self:
         """
 
@@ -196,4 +196,8 @@ class GraphDynamics():
         Analyze the synchronization of the system near limit cycles of the linearized dynamical system.
         """
 
+    def phase_plane(self):
+        """
+        Plot a phase plane with matplotlib for a given dynamical system.
+        """
         
